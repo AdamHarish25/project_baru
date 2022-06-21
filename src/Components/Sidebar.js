@@ -79,7 +79,7 @@ export default function Sidebar() {
               <li className="mx-4 justify-start">
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-white transform duration-300 mt-10 px-5"
+                  className="text-gray-400 hover:text-white border-l-2 border-l-transparent hover:border-l-blue-500 hover:py-2 transform duration-300 mt-10 px-5"
                 >
                   <FontAwesomeIcon icon={faEdit} className="mr-2" />
                   <span className="ml-2">Form Pengajuan</span>
@@ -88,7 +88,7 @@ export default function Sidebar() {
               <li className="mx-4 justify-start">
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-white transform duration-300 mt-10 px-5"
+                  className="text-gray-400 hover:text-white border-l-2 border-l-transparent hover:border-l-blue-500 hover:py-2 transform duration-300 mt-10 px-5"
                 >
                   <FontAwesomeIcon icon={faBook} className="mr-2" />
                   <span className="ml-2">Lihat Berkas</span>
@@ -97,7 +97,7 @@ export default function Sidebar() {
               <li className="mx-4 justify-start">
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-white transform duration-300 mt-10 px-5"
+                  className="text-gray-400 hover:text-white border-l-2 border-l-transparent hover:border-l-blue-500 hover:py-2 transform duration-300 mt-10 px-5"
                 >
                   <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
                   <span className="ml-2">Hubungi Kami</span>
