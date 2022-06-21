@@ -6,7 +6,6 @@ import {
   faBook,
   faEdit,
   faTachometerAltFast,
-  faTachometerFast,
   faUserCircle,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";

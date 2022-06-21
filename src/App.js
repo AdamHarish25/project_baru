@@ -6,7 +6,9 @@ import Sidebar from "./Components/Sidebar";
 function App() {
   return (
     <div className="w-screen">
-      <section id="Home"></section>
+      <section id="Home">
+        
+      </section>
       {/* <section id=''>
 
       </section> */}
