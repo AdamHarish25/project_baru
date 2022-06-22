@@ -8,10 +8,14 @@ import Footer from "./Components/Footer";
 import { faTachometerAltFast } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
+  var name = "Firdaus";
+
   return (
     <div className="w-screen bg-slate-200">
       <section id="Home">
-        <div className={`w-screen h-screen pt-20 bg-slate-200`}>
+        <div
+          className={`w-screen h-screen pt-20 bg-slate-200 overflow-x-hidden`}
+        >
           <ul className="list-none space-y-8 bg-slate-200">
             <li>
               <div className="w-screen mb-5 flex items-center justify-between px-10">
@@ -26,12 +30,12 @@ function App() {
               </div>
             </li>
             <li>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-screen h-auto px-10 bg-slate-200">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-screen h-auto px-10 bg-slate-200">
                 <div className="h-auto lg:h-44 px-5 py-5 max-w-6xl bg-blue-500 border-l-4 border-l-blue-800 text-white">
-                  <h1 className="text-xl py-2 text-bold font-Poppins">
-                    Selamat Datang Firdaus!
+                  <h1 className="text-lg md:text-xl py-2 text-bold font-Poppins">
+                    Selamat Datang {name}!
                   </h1>
-                  <p className="text-sm">
+                  <p className="text-xs md:text-sm">
                     Kepada calon peneliti harap memperhatikan dan melengkapi
                     persyaratan yang ada. Apabila anda membutuhkan bantuan atau
                     informasi lebih lanjut silahkan kontak yang sudah ada.
@@ -43,9 +47,7 @@ function App() {
                   <iframe
                     title="Maps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253079.5159117989!2d109.46889365573396!3d-7.643578009917582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ab505040d2c31%3A0x3027a76e352ba90!2sKebumen%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1655803981912!5m2!1sen!2sid"
-                    width="400"
-                    height="300"
-                    className="border-0"
+                    className="border-0 h-80 w-96 md:w-100"
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"

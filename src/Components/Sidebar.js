@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import {
@@ -14,6 +15,7 @@ import React, { useState } from "react";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
+  var name = "Firdaus";
 
   return (
     <>
@@ -50,7 +52,7 @@ export default function Sidebar() {
 
           <div className="w-32 ml-5 py-2 bg-blue-700 flex justify-end">
             <FontAwesomeIcon icon={faUserCircle} className="mr-2 text-xl" />
-            <span>Firdaus</span>
+            <span>{name}</span>
           </div>
 
           <aside

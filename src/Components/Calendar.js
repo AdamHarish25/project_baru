@@ -4,11 +4,11 @@ import React, { useEffect } from "react";
 export default function Calendar() {
   return (
     <>
-      <div className="flex items-center justify-center py-8 px-4">
-        <div className="w-full shadow-lg">
+      <div className="flex items-center justify-center py-8">
+        <div className="w-screen shadow-lg">
           <div className="md:p-16 md:pb-12 p-5 dark:bg-gray-800 bg-green-400 text-white rounded-t">
             <div className="px-4 flex items-center justify-between">
-              <h1 className="text-2xl font-bold dark:text-gray-100 text-gray-800">
+              <h1 className="text-xl md:text-2xl font-bold dark:text-gray-100 text-gray-800">
                 June 2022
               </h1>
               <div className="flex items-center text-gray-800 dark:text-gray-100">
@@ -50,49 +50,49 @@ export default function Calendar() {
                   <tr>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           Mo
                         </p>
                       </div>
                     </th>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           Tu
                         </p>
                       </div>
                     </th>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           We
                         </p>
                       </div>
                     </th>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           Th
                         </p>
                       </div>
                     </th>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           Fr
                         </p>
                       </div>
                     </th>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           Sa
                         </p>
                       </div>
                     </th>
                     <th>
                       <div className="w-full flex justify-center">
-                        <p className="text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
+                        <p className="text-lg md:text-2xl font-medium text-center text-gray-800 dark:text-gray-100">
                           Su
                         </p>
                       </div>
@@ -112,28 +112,28 @@ export default function Calendar() {
                     </td>
                     <td className="pt-6">
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           1
                         </p>
                       </div>
                     </td>
                     <td className="pt-6">
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           2
                         </p>
                       </div>
                     </td>
                     <td className="pt-6">
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           3
                         </p>
                       </div>
                     </td>
                     <td className="pt-6">
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           4
                         </p>
                       </div>
@@ -142,21 +142,21 @@ export default function Calendar() {
                   <tr>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           5
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           6
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           7
                         </p>
                       </div>
@@ -164,7 +164,7 @@ export default function Calendar() {
                     <td>
                       <div className="w-full h-full">
                         <div className="flex items-center justify-center w-full rounded-full cursor-pointer">
-                          <p className="text-2xl w-14 h-14 flex items-center justify-center font-medium text-white bg-indigo-700 rounded-full">
+                          <p className="text-base md:text-2xl w-14 h-14 flex items-center justify-center font-medium text-white bg-indigo-700 rounded-full">
                             8
                           </p>
                         </div>
@@ -172,21 +172,21 @@ export default function Calendar() {
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           9
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           10
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           11
                         </p>
                       </div>
@@ -195,49 +195,49 @@ export default function Calendar() {
                   <tr>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           12
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           13
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           14
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           15
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           16
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           17
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           18
                         </p>
                       </div>
@@ -246,49 +246,49 @@ export default function Calendar() {
                   <tr>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           19
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           20
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           21
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           22
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           23
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           24
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500">
                           25
                         </p>
                       </div>
@@ -297,35 +297,35 @@ export default function Calendar() {
                   <tr>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           26
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           27
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           28
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           29
                         </p>
                       </div>
                     </td>
                     <td>
                       <div className="px-4 py-4 cursor-pointer flex w-full justify-center">
-                        <p className="text-2xl text-white dark:text-gray-500 font-medium">
+                        <p className="text-base md:text-2xl text-white dark:text-gray-500 font-medium">
                           30
                         </p>
                       </div>

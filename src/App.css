@@ -1356,6 +1356,10 @@ input:checked + .toggle-bg{
   height: 0px;
 }
 
+.h-80{
+  height: 20rem;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -1448,6 +1452,18 @@ input:checked + .toggle-bg{
 
 .w-11{
   width: 2.75rem;
+}
+
+.w-100{
+  width: 30rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.w-4\/6{
+  width: 66.666667%;
 }
 
 .max-w-6xl{
@@ -1665,6 +1681,14 @@ input:checked + .toggle-bg{
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .space-y-8 > :not([hidden]) ~ :not([hidden]){
@@ -2552,6 +2576,11 @@ input:checked + .toggle-bg{
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pt-20{
@@ -4341,6 +4370,10 @@ input:checked + .toggle-bg{
     width: auto;
   }
 
+  .md\:w-100{
+    width: 30rem;
+  }
+
   .md\:max-w-xl{
     max-width: 36rem;
   }
@@ -4425,6 +4458,16 @@ input:checked + .toggle-bg{
     line-height: 1.25rem;
   }
 
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .md\:font-medium{
     font-weight: 500;
   }
@@ -4456,5 +4499,9 @@ input:checked + .toggle-bg{
 @media (min-width: 1024px){
   .lg\:h-44{
     height: 11rem;
+  }
+
+  .lg\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }  
