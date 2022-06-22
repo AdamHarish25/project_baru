@@ -18,7 +18,7 @@ export default function Sidebar() {
   return (
     <>
       <div>
-        <header className="inset-x-0 duration-300 py-2 px-3 fixed top-0 flex items-center justify-between shadow-none mb-10 text-white bg-blue-700">
+        <header className="inset-x-0 duration-300 py-2 px-3 fixed top-0 flex items-center justify-between shadow-none mb-10 text-white bg-blue-700 select-none">
           <div className={`${isOpen ? "block" : "hidden"}`}></div>
           {!isOpen ? (
             <div className={`w-60 bg-blue-700 transform`}>

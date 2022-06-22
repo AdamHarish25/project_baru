@@ -13,6 +13,7 @@
     "flowbite": "^1.4.7",
     "flowbite-react": "^0.0.26",
     "react": "^18.2.0",
+    "react-dater": "^1.6.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

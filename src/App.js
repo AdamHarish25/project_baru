@@ -3,6 +3,7 @@ import "./App.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Sidebar from "./Components/Sidebar";
+import Calendar from "./Components/Calendar";
 import { faTachometerAltFast } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -45,6 +46,8 @@ function App() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+
+            <Calendar />
           </div>
         </div>
       </section>
